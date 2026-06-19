@@ -24,3 +24,9 @@
 ### Stored XSS
 - Payload `<a onmouseover="alert('XSS')">hover me</a>` als Snippet gespeichert
 - Alert erscheint bei jedem Besucher → Stored XSS erfolgreich
+
+### Client-State Manipulation (Elevation of Privilege)
+- Gruyere Cookie Format: `ID|username|rolle`
+- Mit `saveprofile?action=update&is_admin=True` Admin-Rechte erlangt
+- "Manage this server" Link erschien → Admin-Zugriff erfolgreich
+- Schwachstelle: Server validiert Client-Daten nicht serverseitig
