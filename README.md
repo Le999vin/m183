@@ -14,3 +14,13 @@
 
 ### Probleme
 - Keine
+
+## KN01 - XSS Übungen
+
+### Reflected XSS
+- URL Parameter `?uid=<script>alert(1)</script>` ausgeführt
+- Alert mit "1" erschienen → Reflected XSS erfolgreich
+
+### Stored XSS
+- Payload `<a onmouseover="alert('XSS')">hover me</a>` als Snippet gespeichert
+- Alert erscheint bei jedem Besucher → Stored XSS erfolgreich
