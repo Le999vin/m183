@@ -30,3 +30,9 @@
 - Mit `saveprofile?action=update&is_admin=True` Admin-Rechte erlangt
 - "Manage this server" Link erschien → Admin-Zugriff erfolgreich
 - Schwachstelle: Server validiert Client-Daten nicht serverseitig
+
+## KN02 - SQL Injection (WebGoat)
+- SQL Injection (intro) alle 13 Seiten abgeschlossen
+- SELECT, UPDATE, ALTER TABLE, GRANT geübt
+- String & Numeric SQL Injection durchgeführt
+- CIA Schutzziele verletzt: Confidentiality, Integrity, Availability
