@@ -1,0 +1,358 @@
+[ {
+  "name" : "Introduction",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "webgoat.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : true,
+    "link" : "#lesson/WebGoatIntroduction.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "webwolf.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/WebWolfIntroduction.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "General",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "1.http-basics.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/HttpBasics.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "2.http-proxies.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/HttpProxies.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "3.chrome-dev-tools.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/ChromeDevTools.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "4.cia.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/CIA.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "lesson-template.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/LessonTemplate.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "(A1) Broken Access Control",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "hijacksession.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/HijackSession.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "idor.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/IDOR.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "missing-function-access-control.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/MissingFunctionAC.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "spoofcookie.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/SpoofCookie.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "(A2) Cryptographic Failures",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "6.crypto.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/Cryptography.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "(A3) Injection",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "1.sql.injection.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : true,
+    "link" : "#lesson/SqlInjection.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "2.sql.advanced.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/SqlInjectionAdvanced.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "3.sql.mitigation.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/SqlInjectionMitigations.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "4.xss.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : true,
+    "link" : "#lesson/CrossSiteScripting.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "5.xss-stored.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : true,
+    "link" : "#lesson/CrossSiteScriptingStored.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "6.xss-mitigation.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/CrossSiteScriptingMitigation.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "path-traversal-title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/PathTraversal.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "(A5) Security Misconfiguration",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "csrf.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : true,
+    "link" : "#lesson/CSRF.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "xxe.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/XXE.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "(A6) Vuln & Outdated Components",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "vulnerable-components.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/VulnerableComponents.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "(A7) Identity & Auth Failure",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "auth-bypass.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/AuthBypass.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "insecure-login.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/InsecureLogin.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "jwt.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/JWT.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "password-reset.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/PasswordReset.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "secure-passwords.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/SecurePasswords.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "(A8) Software & Data Integrity",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "insecure-deserialization.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/InsecureDeserialization.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "(A9) Security Logging Failures",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "logging.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/LogSpoofing.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "(A10) Server-side Request Forgery",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "ssrf.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/SSRF.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "Client side",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "bypass-restrictions.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/BypassRestrictions.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "client.side.filtering.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/ClientSideFiltering.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "html-tampering.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/HtmlTampering.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+}, {
+  "name" : "Challenges",
+  "type" : "CATEGORY",
+  "children" : [ {
+    "name" : "challenge0.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/ChallengeIntro.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "challenge1.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/Challenge1.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "challenge5.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/Challenge5.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "challenge7.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/Challenge7.lesson",
+    "ranking" : 0
+  }, {
+    "name" : "challenge8.title",
+    "type" : "LESSON",
+    "children" : [ ],
+    "complete" : false,
+    "link" : "#lesson/Challenge8.lesson",
+    "ranking" : 0
+  } ],
+  "complete" : false,
+  "link" : null,
+  "ranking" : 0
+} ]
