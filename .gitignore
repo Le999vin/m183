@@ -1,0 +1,26 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.playwright-cli/
+.cache/
+tmp/
+temp/
+
+.env
+.env.*
+!.env.example
+
+node_modules/
+vendor/
+__pycache__/
+.pytest_cache/
+
+CLAUDE_*
+*_ULTRA_MEMORY_*
+
+# Local working notes that are not part of the final GitHub submission
+organize_m183.sh
+KN02/00_Status_und_Plan.md
+KN02/Screenshots/
+KN02/Zusammenfassungen/

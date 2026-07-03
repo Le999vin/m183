@@ -1,38 +1,36 @@
-# Modul 183 - Applikationssicherheit
+# M183 Abgabe - Struktur und Status
 
-## Block 05 - 19.06.2026
+Diese Ablage trennt Aufgabenstellungen und eigentliche Abgaben:
 
-### Geplant
-- EC2 Instanz aufsetzen
-- Git Repository einrichten
-- KN01 starten (XSS, CSRF, Client-State Manipulation)
+| Bereich | Bedeutung |
+|---|---|
+| `KN-01.md` bis `KN-04.md` | Offizielle Aufgabenstellungen / Anforderungen |
+| `KN01/KN-01.md` | Eigentliche KN01-Abgabe mit Screenshots |
+| `KN02/KN-02.md` | Eigentliche KN02-Abgabe mit Screenshots, Logs und Tokens |
+| `KN03/KN-03.md` | Eigentliche KN03-Abgabe mit Code, Screenshots und Verifikation |
+| `KN04/KN-04.md` | Strukturierte KN04-Abgabevorlage, weil noch keine Nachweise vorhanden sind |
+| `ABGABE_STATUS.md` | Abgleich aller KN01-KN04-Anforderungen gegen den aktuellen Ordnerstand |
+| `Abgaben.md` / `EC2-Setup.md` | Lokale Zielseiten fuer Links aus den Aufgabenstellungen |
 
-### Umgesetzt
-- AWS EC2 Ubuntu 26.04 Instanz erstellt (m183-ubuntu)
-- SSH Verbindung hergestellt
-- Git konfiguriert und Repo geklont
+## Schnellstatus
 
-### Probleme
-- Keine
+| KN | Status | Wichtigster Punkt |
+|---|---|---|
+| KN01 | Fast vollstaendig | B3 Cookie-Diebstahl belegt; finale Session-Uebernahme und D-Admin-Elevation nicht erfolgreich nachgewiesen |
+| KN02 | Fachlich dokumentiert | C-F gut belegt; Setup-/SQL-Screenshots fehlen im aktuellen Ordner als eindeutige Einzelbelege |
+| KN03 | Fachlich gut dokumentiert | Mehr Screenshots ergaenzt; Security-Group-Screenshot und ggf. Videos fehlen noch |
+| KN04 | Nicht begonnen | Es gibt bisher nur die Aufgabenstellung; Abgabevorlage wurde angelegt |
 
-## KN01 - XSS Übungen
+## Empfohlene Lesereihenfolge
 
-### Reflected XSS
-- URL Parameter `?uid=<script>alert(1)</script>` ausgeführt
-- Alert mit "1" erschienen → Reflected XSS erfolgreich
+1. `ABGABE_STATUS.md` lesen.
+2. Danach die Abgaben in `KN01/`, `KN02/`, `KN03/`, `KN04/` pruefen.
+3. Fehlende Screenshots/Videos gezielt nachreichen, statt die bestehenden Dokumentationen umzubauen.
 
-### Stored XSS
-- Payload `<a onmouseover="alert('XSS')">hover me</a>` als Snippet gespeichert
-- Alert erscheint bei jedem Besucher → Stored XSS erfolgreich
+## Bildlinks
 
-### Client-State Manipulation (Elevation of Privilege)
-- Gruyere Cookie Format: `ID|username|rolle`
-- Mit `saveprofile?action=update&is_admin=True` Admin-Rechte erlangt
-- "Manage this server" Link erschien → Admin-Zugriff erfolgreich
-- Schwachstelle: Server validiert Client-Daten nicht serverseitig
+Die Markdown-Dateien verwenden relative Bildlinks. Die Bilder liegen jeweils im gleichen KN-Ordner wie die Abgabe-Datei, damit sie in Markdown-Preview, GitHub/GitLab und Obsidian sichtbar bleiben.
 
-## KN02 - SQL Injection (WebGoat)
-- SQL Injection (intro) alle 13 Seiten abgeschlossen
-- SELECT, UPDATE, ALTER TABLE, GRANT geübt
-- String & Numeric SQL Injection durchgeführt
-- CIA Schutzziele verletzt: Confidentiality, Integrity, Availability
+## Repo-Hygiene
+
+Generierte lokale Dateien wie `.DS_Store`, `.playwright-cli/`, Env-Dateien und Handoff-Notizen werden per `.gitignore` ausgeschlossen. Abgaberelevante Markdown-Dateien, Screenshots, Logs und Quellcode bleiben versioniert.

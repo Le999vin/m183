@@ -44,9 +44,12 @@ if(isset($_POST['login'])) {
 }
 
 if(isset($_POST['speichern']) && isset($_SESSION['username'])) {
-    $_SESSION['secret_message'] = $_POST['message'];
+    $_SESSION['secret_message'] = trim($_POST['message'] ?? '');
 }
 
+ob_start();
+var_dump($_SESSION);
+$session_dump = ob_get_clean();
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -65,7 +68,7 @@ if(isset($_POST['speichern']) && isset($_SESSION['username'])) {
     <main>
         <section>
             <h2>Session-Daten:</h2>
-            <pre><?php var_dump($_SESSION); ?></pre>
+            <pre><?php echo htmlspecialchars($session_dump, ENT_QUOTES, 'UTF-8'); ?></pre>
         </section>
 
         <?php if(!isset($_SESSION['username'])) { ?>
