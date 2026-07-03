@@ -1,0 +1,19 @@
+php -l:
+No syntax errors detected in /var/www/html/index.php
+
+Set-Cookie:
+Set-Cookie: PHPSESSID=ab83f59f84208022384e7a818f383645; expires=Fri, 03 Jul 2026 08:46:34 GMT; Max-Age=900; path=/; secure; HttpOnly; SameSite=Strict
+
+Correct login snippet:
+            <h2>Session-Daten:</h2>
+            <pre>array(2) {
+  ["username"]=>
+  string(5) "admin"
+  ["role"]=>
+  string(5) "admin"
+}
+</pre>
+        </section>
+
+                <section>
+            <h2>Geheime Daten</h2>
