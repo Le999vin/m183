@@ -1,0 +1,14 @@
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Fri, 03 Jul 2026 07:57:23 GMT
+
+{
+  "lessonCompleted" : true,
+  "feedback" : "Well done, you have modified someone else's profile (as displayed below)",
+  "feedbackArgs" : null,
+  "output" : "{role=1, color=red, size=large, name=Buffalo Bill, userId=2342388}",
+  "outputArgs" : null,
+  "assignment" : "IDOREditOtherProfile",
+  "attemptWasMade" : true
+}
