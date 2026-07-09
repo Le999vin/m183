@@ -1,0 +1,9 @@
+Lege die 18 heutigen Screenshots hier ab, mit diesen Dateinamen (dann rendern die Bild-Links in KN04_Dokumentation.md automatisch):
+
+00_ec2_instance.png, 00_security_group.png, 00_ssh_docker.png
+A1_login_seite.png, A2_brute_output.png, A3_login_erfolg.png
+B1_aes_output.png
+C1_cert_details.png, C2_verify_ok.png
+D1_tls_seite.png, D2_zertifikat_dialog.png
+E1_nmap.png, E2_tcpdump_80.png, E2b_curl_80.png, E3_tcpdump_443.png
+F1_crack_output.png, F2_crack_erweitert.png, F3_scrypt_vergleich.png
